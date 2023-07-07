@@ -1,0 +1,5 @@
+A short description of how this LWC was created-
+
+1. As we are using wire adpater an apex class was created to fetch the Salesforce Data(Contact records) so  to display it using LWC.
+2. In LWC to operate on returned data I have used wire service on a function. The returned data is assigned to contactRecords property and error to errors proprty.
+3. We use Lightning - Card to display the title and icon in HTML markup. Lightning- DataTable to show records in a table format using the properties defined in JS class.
